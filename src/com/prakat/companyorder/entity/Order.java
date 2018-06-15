@@ -11,6 +11,7 @@ public class Order {
 	public Order(int orderId) {
 		super();
 		this.orderId = orderId;
+		System.out.println("***^");
 	}
 
 	public int getOrderId() {
