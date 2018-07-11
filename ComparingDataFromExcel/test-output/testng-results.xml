@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58611" started-at="2018-07-11T08:38:10Z" finished-at="2018-07-11T08:39:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58611" started-at="2018-07-11T08:38:10Z" finished-at="2018-07-11T08:39:09Z">
+      <class name="com.datainput.testng.DataProviderInput">
+        <test-method status="PASS" signature="Display()[pri:0, instance:com.datainput.testng.DataProviderInput@1563da5]" name="Display" is-config="true" duration-ms="1494" started-at="2018-07-11T08:38:10Z" finished-at="2018-07-11T08:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Display -->
+        <test-method status="PASS" signature="getBrowserConnection()[pri:0, instance:com.datainput.testng.DataProviderInput@1563da5]" name="getBrowserConnection" is-config="true" duration-ms="30828" started-at="2018-07-11T08:38:12Z" finished-at="2018-07-11T08:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserConnection -->
+        <test-method status="PASS" signature="firefoxtest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datainput.testng.DataProviderInput@1563da5]" name="firefoxtest" duration-ms="26263" started-at="2018-07-11T08:38:43Z" data-provider="Authentication" finished-at="2018-07-11T08:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zetamine400@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[boogieme]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[loginbutton]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxtest -->
+        <test-method status="PASS" signature="TerminatedInfo()[pri:0, instance:com.datainput.testng.DataProviderInput@1563da5]" name="TerminatedInfo" is-config="true" duration-ms="0" started-at="2018-07-11T08:39:09Z" finished-at="2018-07-11T08:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminatedInfo -->
+      </class> <!-- com.datainput.testng.DataProviderInput -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
