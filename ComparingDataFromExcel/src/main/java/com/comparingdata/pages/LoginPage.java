@@ -14,5 +14,6 @@ public class LoginPage {
 		DataProviderInput.driver.findElement(By.id(XMLPathsData.getPasswordID())).sendKeys(ValuesStored.getPassValue());
 		DataProviderInput.driver.findElement(By.id(XMLPathsData.getLoginButtonID())).click();
 		Thread.sleep(5000);
+		System.out.println("Login Page");
 	}
 }
